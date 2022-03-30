@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SlideController">
+   <children>
+      <ImageView fx:id="pImage" fitHeight="300.0" fitWidth="570.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="86.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="14.0" />
+      <Button fx:id="lButton" layoutX="261.0" layoutY="327.0" mnemonicParsing="false" onAction="#leftOrRight" text="&lt;---" />
+      <Button fx:id="rButton" layoutX="300.0" layoutY="327.0" mnemonicParsing="false" onAction="#leftOrRight" text="---&gt;" />
+      <Button fx:id="quitButton" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#quit" text="Quit" />
+      <Button fx:id="logout" layoutX="470.0" layoutY="361.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <Button fx:id="returnButton" layoutX="409.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Return" />
+      <BorderPane layoutX="108.0" layoutY="-153.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
